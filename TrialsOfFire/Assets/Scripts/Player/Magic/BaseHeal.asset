@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 1
   chargeTime: 1
-  chargeDelay: 0.2
+  chargeDelay: 0.8
   potency: 5
