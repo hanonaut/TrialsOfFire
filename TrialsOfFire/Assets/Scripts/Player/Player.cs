@@ -15,7 +15,9 @@ public class Player : MonoBehaviour
         Instance = this;
     }
     public Camera mainCamera;
+    public Health health;
     public PlayerMagic Magic;
+
 
 
     // Start is called before the first frame update

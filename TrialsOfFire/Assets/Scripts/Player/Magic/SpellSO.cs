@@ -10,7 +10,7 @@ public class SpellSO : ScriptableObject
     /// </summary>
     public float cost;
     /// <summary>
-    /// How long it takes to prepare the spell.
+    /// How long it takes to fully prepare the spell.
     /// </summary>
     public float chargeTime;
     /// <summary>

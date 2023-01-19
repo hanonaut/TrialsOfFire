@@ -33,12 +33,14 @@ public class MenuController : MonoBehaviour
     public void FreezeGame()
     {
         Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.None;
         //lock the player.
     }
 
     public void UnFreezeGame()
     {
         Time.timeScale = 1f;
+        Cursor.lockState = CursorLockMode.Locked;
         //unlcok the player
     }
 

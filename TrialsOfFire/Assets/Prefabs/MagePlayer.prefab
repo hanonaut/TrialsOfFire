@@ -163,7 +163,9 @@ GameObject:
   - component: {fileID: 932573056}
   - component: {fileID: 6445763493633234552}
   - component: {fileID: 932573054}
+  - component: {fileID: 2913848672995275730}
   - component: {fileID: 932573055}
+  - component: {fileID: 5713338396472651553}
   m_Layer: 0
   m_Name: MagePlayer
   m_TagString: Untagged
@@ -219,6 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 6445763493591248372}
+  health: {fileID: 5713338396472651553}
   Magic: {fileID: 932573055}
 --- !u!114 &6445763493633234552
 MonoBehaviour:
@@ -247,9 +250,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf25974e92938b54882dbb007e583cb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftOrRight: Right
   equipSpell: {fileID: 8196001032726035902, guid: 118406fbee119834c82d89c4d917e1a1,
     type: 3}
   isCharging: 0
+  chargeTime: 0
+--- !u!114 &2913848672995275730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6445763493633234555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf25974e92938b54882dbb007e583cb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftOrRight: Left
+  equipSpell: {fileID: 7069487557427870373, guid: b51ad7f1a1acc3d4b8b6fda102067328,
+    type: 3}
+  isCharging: 0
+  chargeTime: 0
 --- !u!114 &932573055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,7 +286,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   castPoint: {fileID: 477638242}
   rightHand: {fileID: 932573054}
-  leftHand: {fileID: 0}
+  leftHand: {fileID: 2913848672995275730}
+--- !u!114 &5713338396472651553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6445763493633234555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acafd78abe3bb2f4ab43802ec06325b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 10
+  currentHP: 5
 --- !u!1 &6445763494665553053
 GameObject:
   m_ObjectHideFlags: 0

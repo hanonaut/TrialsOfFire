@@ -6,5 +6,15 @@ public abstract class Spell : MonoBehaviour
 {
     public SpellSO baseStats;
 
-    public abstract void CastSpell(Transform castPoint);
+    public float effectivePotency;
+
+    public virtual void CastSpell(Transform castPoint, float chargeRatio) 
+    {
+        SetEffectivePotency(chargeRatio);
+    }
+
+    public virtual void SetEffectivePotency(float chargeRatio)
+    {
+        effectivePotency = baseStats.potency * chargeRatio;
+    }
 }

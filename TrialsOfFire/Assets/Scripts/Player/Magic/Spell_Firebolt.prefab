@@ -108,11 +108,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8196001032726035903}
   - component: {fileID: 8196001032726035902}
+  - component: {fileID: -3554945444214431871}
   - component: {fileID: 8196001032726035901}
   - component: {fileID: 8196001032726035900}
   m_Layer: 6
   m_Name: Spell_Firebolt
-  m_TagString: Spell
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,6 +147,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseStats: {fileID: 11400000, guid: 7ad5bd7f8a571bf4e9affb7b1d60af92, type: 2}
+  effectivePotency: 0.760314
+  projectile: {fileID: -3554945444214431871}
+--- !u!114 &-3554945444214431871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8196001032726035899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba56db3e06a80f44aa1e03a102cd64f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fired: 0
 --- !u!136 &8196001032726035901
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -175,4 +191,4 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 126
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
