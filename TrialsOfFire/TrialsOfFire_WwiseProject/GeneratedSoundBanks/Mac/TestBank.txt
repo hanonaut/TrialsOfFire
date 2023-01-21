@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2340775150	Play_SFX_spell_cast			\Default Work Unit\Play_SFX_spell_cast	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	244977777	SFX_spell_cast	E:\UnityProjects\TrialsOfFireRepo\TrialsOfFire\TrialsOfFire_WwiseProject\.cache\Mac\SFX\SFX_spell_cast_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_spell_cast		344824
+

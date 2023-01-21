@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A3032ADF-5A77-4F3C-A2AA-6DE1ABDA2867}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{A3032ADF-5A77-4F3C-A2AA-6DE1ABDA2867}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SFX_spell_cast" ID="{C7D5D00D-73DD-485F-8F53-51CC37631473}" ShortID="107266436">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{51DA7E75-EF39-4762-9C9E-3E736217F3EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9DCDA1E-C425-4CFB-8BF2-675418051472}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_spell_cast" ID="{A5A12DE8-446A-4010-824D-509E70CF7E24}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_spell_cast.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="244977777"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_spell_cast" ID="{A5A12DE8-446A-4010-824D-509E70CF7E24}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

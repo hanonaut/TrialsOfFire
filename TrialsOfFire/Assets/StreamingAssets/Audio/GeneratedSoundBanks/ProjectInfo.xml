@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="TrialsOfFire_WwiseProject" GUID="{20FA7C99-ED4D-4C9B-8B6F-DFD5F23CD08D}" Generator="2022.1.1.8100"/>
+	<CacheRoot>../../../../TrialsOfFire_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{8C0213F7-4366-40EF-9A29-A96E6882D88C}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../TrialsOfFire_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{00B6DB38-4C7E-4E4C-8BF1-E3039144EC79}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../TrialsOfFire_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{916D33D2-54F0-4E13-B3EC-E36EDB177A73}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{2B8637ED-A5F9-B3DC-E86A-4ACF1C2C9EF3}</FileHash>
+</ProjectInfo>

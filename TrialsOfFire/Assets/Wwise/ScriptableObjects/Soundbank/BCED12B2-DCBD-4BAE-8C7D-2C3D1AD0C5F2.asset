@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a9c80cb7eb91740bccbe6783766b42, type: 3}
+  m_Name: BCED12B2-DCBD-4BAE-8C7D-2C3D1AD0C5F2
+  m_EditorClassIdentifier: 
+  objectName: TestBank
+  id: 3291379323
+  guid: BCED12B2-DCBD-4BAE-8C7D-2C3D1AD0C5F2

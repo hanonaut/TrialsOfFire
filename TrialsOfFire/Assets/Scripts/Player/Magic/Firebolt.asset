@@ -16,4 +16,4 @@ MonoBehaviour:
   chargeTime: 0.5
   chargeDelay: 0.15
   potency: 5
-  speed: 75
+  speed: 200
