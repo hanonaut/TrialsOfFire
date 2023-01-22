@@ -27,7 +27,6 @@ public class BasicAI : MonoBehaviour
 
 	private void Awake()
 	{
-        targetPlayer = Player.Instance.transform;
         agent = GetComponent<NavMeshAgent>();
 	}
 
@@ -35,21 +34,30 @@ public class BasicAI : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
-        
-    }
+		targetPlayer = Player.Instance.transform;
+	}
 
     // Update is called once per frame
     void Update()
     {
         playerInSight = Physics.CheckSphere(transform.position, sightRange, playerShape);
 
-        if (playerInSight) Roaming();
+        if (!playerInSight)
+        {
+			Debug.Log("Commence Roaming");
+			Roaming();
+        }
     }
 
     private void Roaming() {
-        if (!walkPointSet) ChooseLocation();
+		Debug.Log("Is Roaming");
+		if (!walkPointSet) ChooseLocation();
 
-        if (walkPointSet) agent.SetDestination(walkPoint);
+        if (walkPointSet) {
+			walkPointSet = true;
+            agent.SetDestination(walkPoint);
+        
+        };
 
         if ((transform.position - walkPoint).magnitude < 1f) walkPointSet = false;
 
@@ -59,9 +67,20 @@ public class BasicAI : MonoBehaviour
     private void ChooseLocation(){
         float randomX = Random.Range(-patrolRange, patrolRange);
 		float randomZ = Random.Range(-patrolRange, patrolRange);
+        Debug.Log("Testing");
+
 
         walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
-        if(Physics.Raycast(walkPoint, -transform.up, 2f, isTheGround)) walkPointSet = true;
+		agent.SetDestination(walkPoint);
 
+	}
+
+    //Visual degugging
+	private void OnDrawGizmos()
+	{
+        if (walkPointSet) {
+			    Gizmos.DrawRay(walkPoint, -transform.up);
+		}
+		
 	}
 }
