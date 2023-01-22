@@ -4,7 +4,24 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public AK.Wwise.Event testEvent;
+    public static AudioManager instance;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            DestroyImmediate(gameObject);
+            return;
+        }
+        DontDestroyOnLoad(gameObject);
+    }
+
+
+    public List<Sound> sounds = new List<Sound>();
 
     // Start is called before the first frame update
     void Start()
@@ -15,9 +32,23 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+    }
+
+    public void Play(string soundName, GameObject otherObject = null)
+    {
+        Sound s = sounds.Find(i => i.soundName == soundName);
+        if(s == null)
         {
-            testEvent.Post(gameObject);
+            Debug.LogWarning("Sound " + soundName + " not Found.");
+            return;
+        }
+        if (otherObject != null)
+        {
+            s.soundEvent.Post(otherObject);
+        }
+        else
+        {
+            s.soundEvent.Post(Player.Instance.gameObject);
         }
     }
 }

@@ -66,11 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 80f0961343b1c44e800d62cd736ae70b
     GuidInternal: 
-    m_lastTime: -8585272799421595910
+    m_lastTime: -8585272674199120774
     List:
-    - name: TestBank
-      guid: b212edbcbddcae4b8c7d2c3d1ad0c5f2
-      id: 3291379323
+    - name: New_SoundBank
+      guid: dd52f5b6b6a5cd48adda31fa2bd70bc1
+      id: 4072029455
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -78,10 +78,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 80f0961343b1c44e800d62cd736ae70b
-      - ElementName: TestBank
+      - ElementName: New_SoundBank
         ObjectType: 7
-        guid: b212edbcbddcae4b8c7d2c3d1ad0c5f2
-      Path: SoundBanks\Default Work Unit\TestBank
+        guid: dd52f5b6b6a5cd48adda31fa2bd70bc1
+      Path: SoundBanks\Default Work Unit\New_SoundBank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9caba23ad7acf04685deead09ad7b08e
     GuidInternal: 
-    m_lastTime: -8585272799421925038
+    m_lastTime: -8585272674199559596
     List:
     - name: Play_SFX_spell_cast
       guid: 66c90d48910b7d4184737f9535da1a17

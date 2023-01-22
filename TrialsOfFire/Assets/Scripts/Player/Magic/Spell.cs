@@ -11,6 +11,7 @@ public abstract class Spell : MonoBehaviour
     public virtual void CastSpell(Transform castPoint, float chargeRatio) 
     {
         SetEffectivePotency(chargeRatio);
+        AudioManager.instance.Play("Spell Sound");
     }
 
     public virtual void SetEffectivePotency(float chargeRatio)
