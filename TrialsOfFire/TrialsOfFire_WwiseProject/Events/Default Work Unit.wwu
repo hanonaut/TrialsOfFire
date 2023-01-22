@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3AA2AB9C-ACD7-46F0-85DE-EAD09AD7B08E}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3AA2AB9C-ACD7-46F0-85DE-EAD09AD7B08E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SFX_spell_cast" ID="{480DC966-0B91-417D-8473-7F9535DA1A17}">
+					<ChildrenList>
+						<Action Name="" ID="{5E52DC6B-3213-48CE-B312-A12067F776B5}" ShortID="599514913">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_spell_cast" ID="{C7D5D00D-73DD-485F-8F53-51CC37631473}" WorkUnitID="{A3032ADF-5A77-4F3C-A2AA-6DE1ABDA2867}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
