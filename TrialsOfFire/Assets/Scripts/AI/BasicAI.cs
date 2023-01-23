@@ -47,6 +47,10 @@ public class BasicAI : MonoBehaviour
 			Debug.Log("Commence Roaming");
 			Roaming();
         }
+        else{
+            Debug.Log("Player spotted");
+
+		}
     }
 
     private void Roaming() {
@@ -78,6 +82,8 @@ public class BasicAI : MonoBehaviour
     //Visual degugging
 	private void OnDrawGizmos()
 	{
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, sightRange);
         if (walkPointSet) {
 			    Gizmos.DrawRay(walkPoint, -transform.up);
 		}
