@@ -44,11 +44,12 @@ public class BasicAI : MonoBehaviour
 
         if (!playerInSight)
         {
-			Debug.Log("Commence Roaming");
 			Roaming();
         }
         else{
             Debug.Log("Player spotted");
+			agent.SetDestination(targetPlayer.position);
+			agent.stoppingDistance = 4;
 
 		}
     }
@@ -58,14 +59,13 @@ public class BasicAI : MonoBehaviour
 		if (!walkPointSet) ChooseLocation();
 
         if (walkPointSet) {
-			walkPointSet = true;
             agent.SetDestination(walkPoint);
+            agent.stoppingDistance = 0;
         
         };
 
-        if ((transform.position - walkPoint).magnitude < 1f) walkPointSet = false;
-
-
+        if ((transform.position - walkPoint).magnitude < 1f) 
+            walkPointSet = false;
 	}
 
     private void ChooseLocation(){
@@ -77,6 +77,11 @@ public class BasicAI : MonoBehaviour
         walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
 		agent.SetDestination(walkPoint);
 
+        if(Physics.Raycast(walkPoint, -transform.up, isTheGround))
+			walkPointSet = true;
+
+
+
 	}
 
     //Visual degugging
@@ -84,9 +89,6 @@ public class BasicAI : MonoBehaviour
 	{
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, sightRange);
-        if (walkPointSet) {
-			    Gizmos.DrawRay(walkPoint, -transform.up);
-		}
 		
 	}
 }
