@@ -143,17 +143,17 @@ PrefabInstance:
     - target: {fileID: 6445763493633234558, guid: 16363bed128430440b167e90d5e941dc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 6.84
       objectReference: {fileID: 0}
     - target: {fileID: 6445763493633234558, guid: 16363bed128430440b167e90d5e941dc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.67
+      value: 1.34
       objectReference: {fileID: 0}
     - target: {fileID: 6445763493633234558, guid: 16363bed128430440b167e90d5e941dc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10.83
       objectReference: {fileID: 0}
     - target: {fileID: 6445763493633234558, guid: 16363bed128430440b167e90d5e941dc,
         type: 3}
@@ -189,6 +189,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6445763494665553053, guid: 16363bed128430440b167e90d5e941dc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16363bed128430440b167e90d5e941dc, type: 3}
@@ -262,7 +267,7 @@ GameObject:
   - component: {fileID: 759296714}
   - component: {fileID: 759296713}
   - component: {fileID: 759296712}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -437,10 +442,10 @@ MonoBehaviour:
   agent: {fileID: 0}
   playerShape:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   isTheGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   targetPlayer: {fileID: 0}
   patrolRange: 10
   sightRange: 5
