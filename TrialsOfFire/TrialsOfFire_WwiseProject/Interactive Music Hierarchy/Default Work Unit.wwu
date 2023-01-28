@@ -1087,7 +1087,7 @@
 																						<PointList>
 																							<Point>
 																								<XPos>6.31579</XPos>
-																								<YPos>-96.3</YPos>
+																								<YPos>-30.67374</YPos>
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
@@ -1735,12 +1735,22 @@
 																						<PointList>
 																							<Point>
 																								<XPos>6.31579</XPos>
-																								<YPos>0</YPos>
+																								<YPos>-7.34318</YPos>
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>31.57895</XPos>
+																								<XPos>7.9327712355562</XPos>
 																								<YPos>0</YPos>
+																								<Flags>0</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>28.8752930868983</XPos>
+																								<YPos>0</YPos>
+																								<Flags>0</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>31.57895</XPos>
+																								<YPos>-33.1725</YPos>
 																								<Flags>37</Flags>
 																							</Point>
 																						</PointList>
@@ -1914,7 +1924,32 @@
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{D8462651-049B-445A-AB51-90FA1F4E2168}" ShortID="859782437"/>
+						<MusicPlaylistItem Name="" ID="{D8462651-049B-445A-AB51-90FA1F4E2168}" ShortID="859782437">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{2A49CDC3-0484-409E-A94A-2A7A39E9DF0D}" ShortID="602797738">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="2"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Combat Main" ID="{A1DC2FBA-02C1-4BD1-838C-8509C861ABAD}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{B95B3A1A-2824-4086-91AC-87B00FFC51C3}" ShortID="325457068">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Combat Variation 2" ID="{F86A75DA-D141-4723-91F8-F08C2C9F30F9}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{34FBBF6F-2D4D-45AA-B1A3-1874872EE34F}" ShortID="529786269">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Combat Variation" ID="{9E028BD4-DEA0-48B7-A3D3-03A3910EBBB0}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 			</ChildrenList>
