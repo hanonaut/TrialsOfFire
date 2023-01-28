@@ -53,6 +53,13 @@ MonoBehaviour:
       valueGuidInternal: 
       WwiseObjectReference: {fileID: 11400000, guid: 35a038a211f1555428a2dc0d44bf9572,
         type: 2}
+  - soundName: Foot Steps
+    soundType: 0
+    soundEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 35a038a211f1555428a2dc0d44bf9572,
+        type: 2}
 --- !u!114 &1927690788033874208
 MonoBehaviour:
   m_ObjectHideFlags: 0
