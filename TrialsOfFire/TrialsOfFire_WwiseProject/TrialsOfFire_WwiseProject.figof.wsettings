@@ -18,12 +18,24 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="Interactive Music\x64_{9E028BD4-DEA0-48B7-A3D3-03A3910EBBB0} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzpE5c7oK0NAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAElA"/>
+				<Property Name="Interactive Music\x64_{A1DC2FBA-02C1-4BD1-838C-8509C861ABAD} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPz9E5c7oK0NAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
-				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="4"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{1C48CDD8-6145-4E24-988B-ABFBBAE73F92}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{1C48CDD8-6145-4E24-988B-ABFBBAE73F92}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{6A6073B6-68CB-4191-80EE-933D19830551}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{6A6073B6-68CB-4191-80EE-933D19830551}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{A3D2D52E-269E-48B2-96E5-414CAD7435D0}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{A3D2D52E-269E-48B2-96E5-414CAD7435D0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{BB0C794D-F11C-4AEB-93DF-60D6B5A04443}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{BB0C794D-F11C-4AEB-93DF-60D6B5A04443}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{C583482C-7422-4D1B-B2A0-A0FA1AB33B0B}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{C583482C-7422-4D1B-B2A0-A0FA1AB33B0B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
