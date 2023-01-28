@@ -15,6 +15,10 @@ public class PlayerController : MonoBehaviour
     private float speed;
 
     private bool canDash;
+    public float dashTime;
+    public float dashSpeed;
+    public float dashDelay = 0.5f;
+    private Vector3 moveDirection;
 
 
 
@@ -35,22 +39,32 @@ public class PlayerController : MonoBehaviour
 		float mouse_y = Input.GetAxis("Mouse Y");
 
 		Vector3 move = transform.forward * vertical + transform.right * horizontal;
+        moveDirection = move;
 
         mageCharacter.Move(move * speed * Time.deltaTime);
         transform.Rotate(0f, mouse_x, 0f);
         eyes.transform.Rotate(-mouse_y, 0f, 0f);
-        Debug.Log("Can Dash: " + canDash);
 
         if(Input.GetKeyDown(KeyCode.LeftShift) && canDash){
-			mageCharacter.Move(move * 900f * Time.deltaTime);
+            StartCoroutine(Dash());
             StartCoroutine(ReloadDash());
         }
     }
 
     IEnumerator ReloadDash(){
         canDash = false;
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(dashDelay);
         canDash = true;
 
+    }
+    IEnumerator Dash()
+    {
+        float timer = 0f;
+        while (timer < dashTime)
+        {
+            mageCharacter.Move(moveDirection.normalized * dashSpeed * Time.deltaTime);
+            timer += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
     }
 }
