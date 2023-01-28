@@ -4,6 +4,8 @@
 		<UserProjectSettings Name="" ID="{8AD98349-4958-4306-980C-3DB6CBDB9676}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\figof\Desktop\temp 2022\Trails of Fire\Menu Music\"/>
+				<Property Name="Event Action List\{480DC966-0B91-417D-8473-7F9535DA1A17}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7C1CA5E4-E2DA-4AE4-99E3-B22043B60D3E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
@@ -16,9 +18,9 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
-				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="ONu2AH5MTE6L8eMDkUTseQ=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="3VL1tralzUit2jH6K9cLwQ=="/>
 				<Property Name="Interactive Music\x64_{0649627E-0CBB-4D85-BDBA-E6C3D3122C2D} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D+0ne+nxkv1PzlE5c7oK0NAIjQYQoMh5D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{59D963DD-07DC-489F-B2F5-F79326A1ABE2} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1/mVzbdwUxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{9E028BD4-DEA0-48B7-A3D3-03A3910EBBB0} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzpE5c7oK0NAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>

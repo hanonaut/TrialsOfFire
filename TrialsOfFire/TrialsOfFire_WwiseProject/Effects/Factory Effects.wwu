@@ -20,7 +20,7 @@
 						<Effect Name="Hard_Knee_Minus_3dB_RMS" ID="{D083BAE5-F9EF-426B-A311-D9DF8DFE8807}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<PropertyList>
 								<Property Name="Ratio" Type="Real32" Value="8"/>
-								<Property Name="Threshold" Type="Real32" Value="-3"/>
+								<Property Name="Threshold" Type="Real32" Value="-62.8"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Dialog_Leveler_Soft" ID="{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
@@ -1221,6 +1221,7 @@
 										<Property Name="DecayTime" Type="Real32" Value="2.5"/>
 										<Property Name="Density" Type="Real32" Value="60"/>
 										<Property Name="Diffusion" Type="Real32" Value="74"/>
+										<Property Name="DryLevel" Type="Real32" Value="0"/>
 										<Property Name="ERLevel" Type="Real32" Value="-23"/>
 										<Property Name="ERPattern" Type="int32" Value="21"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
@@ -1231,7 +1232,7 @@
 										<Property Name="HFDamping" Type="Real32" Value="1.75"/>
 										<Property Name="PreDelay" Type="Real32" Value="40"/>
 										<Property Name="Quality" Type="int32" Value="10"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
 										<Property Name="RoomShape" Type="Real32" Value="0"/>
 										<Property Name="RoomSize" Type="Real32" Value="20"/>
 										<Property Name="StereoWidth" Type="Real32" Value="155"/>

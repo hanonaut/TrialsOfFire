@@ -6,6 +6,7 @@
 				<SoundBank Name="New_SoundBank" ID="{B6F552DD-A5B6-48CD-ADDA-31FA2BD70BC1}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_SFX_spell_cast" ID="{480DC966-0B91-417D-8473-7F9535DA1A17}" WorkUnitID="{3AA2AB9C-ACD7-46F0-85DE-EAD09AD7B08E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps_random" ID="{11F5CAA0-D6F3-4EDF-B5E8-3163B2E4F65C}" WorkUnitID="{A3032ADF-5A77-4F3C-A2AA-6DE1ABDA2867}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
