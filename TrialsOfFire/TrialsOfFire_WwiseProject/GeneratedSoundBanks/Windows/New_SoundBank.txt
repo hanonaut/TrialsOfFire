@@ -1,6 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2340775150	Play_SFX_spell_cast			\Default Work Unit\Play_SFX_spell_cast	
+	2545938451	Play_Footsteps_random			\Default Work Unit\Play_Footsteps_random	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2038996943	Plate_Sizzle	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	244977777	SFX_spell_cast	E:\UnityProjects\TrialsOfFireRepo\TrialsOfFire\TrialsOfFire_WwiseProject\.cache\Windows\SFX\SFX_spell_cast_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_spell_cast		344824
+	84612645	footstep_5	X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\.cache\Windows\SFX\footsteps\footstep_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_random\footsteps\footstep_5		74632
+	174776349	footstep_4	X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\.cache\Windows\SFX\footsteps\footstep_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_random\footsteps\footstep_4		74632
+	244977777	SFX_spell_cast	X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\.cache\Windows\SFX\SFX_spell_cast_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_spell_cast		344824
+	367317632	footstep_6	X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\.cache\Windows\SFX\footsteps\footstep_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_random\footsteps\footstep_6		74632
+	560081505	footstep_1	X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\.cache\Windows\SFX\footsteps\footstep_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_random\footsteps\footstep_1		74632
+	599553398	footstep_3	X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\.cache\Windows\SFX\footsteps\footstep_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_random\footsteps\footstep_3		74632
+	1018981790	footstep_2	X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\.cache\Windows\SFX\footsteps\footstep_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_random\footsteps\footstep_2		74632
 
