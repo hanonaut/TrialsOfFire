@@ -33,7 +33,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //mageCharacter.velocity.y = 9.81f;
         //Debug.Log("Is Grounded: " + mageCharacter.isGrounded);
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
