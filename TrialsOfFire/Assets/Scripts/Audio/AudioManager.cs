@@ -51,4 +51,23 @@ public class AudioManager : MonoBehaviour
             s.soundEvent.Post(Player.Instance.gameObject);
         }
     }
+
+
+    public void StopSound(string soundName, GameObject otherObject = null)
+    {
+        Sound s = sounds.Find(i => i.soundName == soundName);
+        if (s == null)
+        {
+            Debug.LogWarning("Sound " + name + " not found.");
+            return;
+        }
+        if (otherObject != null)
+        {
+            s.soundEvent.Stop(otherObject);
+        }
+        else
+        {
+            s.soundEvent.Stop(Player.Instance.gameObject);
+        }
+    }
 }

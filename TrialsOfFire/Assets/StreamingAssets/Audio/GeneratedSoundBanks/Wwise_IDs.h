@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_FOOTSTEPS_RANDOM = 2545938451U;
         static const AkUniqueID PLAY_SFX_SPELL_CAST = 2340775150U;
     } // namespace EVENTS
 

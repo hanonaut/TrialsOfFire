@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{11AE950E-05FF-4E91-47B0-D00A23B83BA4}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -22,16 +22,60 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3291379323" Type="User" Language="SFX" Hash="{3248EA18-1633-3DCD-7536-C7DD22730FC8}">
-			<ShortName>TestBank</ShortName>
-			<Path>TestBank.bnk</Path>
+		<SoundBank Id="4072029455" Type="User" Language="SFX" Hash="{618696F8-EC37-2E86-DA7D-8FF0EA9EA70F}">
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
 			<Media>
+				<File Id="84612645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps\footstep_5.wav</ShortName>
+					<CachePath>SFX/footsteps/footstep_5_10C4C929.wem</CachePath>
+				</File>
+				<File Id="174776349" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps\footstep_4.wav</ShortName>
+					<CachePath>SFX/footsteps/footstep_4_10C4C929.wem</CachePath>
+				</File>
 				<File Id="244977777" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_spell_cast.wav</ShortName>
 					<CachePath>SFX/SFX_spell_cast_10C4C929.wem</CachePath>
 				</File>
+				<File Id="367317632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps\footstep_6.wav</ShortName>
+					<CachePath>SFX/footsteps/footstep_6_10C4C929.wem</CachePath>
+				</File>
+				<File Id="560081505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps\footstep_1.wav</ShortName>
+					<CachePath>SFX/footsteps/footstep_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="599553398" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps\footstep_3.wav</ShortName>
+					<CachePath>SFX/footsteps/footstep_3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1018981790" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps\footstep_2.wav</ShortName>
+					<CachePath>SFX/footsteps/footstep_2_10C4C929.wem</CachePath>
+				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2038996943" Name="Plate_Sizzle" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
+				<Event Id="2545938451" Name="Play_Footsteps_random" DurationType="OneShot" DurationMin="0.42253968" DurationMax="0.42253968">
+					<MediaRefs>
+						<MediaRef Id="84612645"/>
+						<MediaRef Id="174776349"/>
+						<MediaRef Id="367317632"/>
+						<MediaRef Id="560081505"/>
+						<MediaRef Id="599553398"/>
+						<MediaRef Id="1018981790"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2038996943"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 				<Event Id="2340775150" Name="Play_SFX_spell_cast" DurationType="OneShot" DurationMin="1.9542403" DurationMax="1.9542403">
 					<MediaRefs>
 						<MediaRef Id="244977777"/>
@@ -40,5 +84,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FF1873C7-D6F2-06E8-7FB6-B9E107054BCC}</FileHash>
+	<FileHash>{876011C6-A38F-ACE6-9110-94BE8A76DE55}</FileHash>
 </SoundBanksInfo>
