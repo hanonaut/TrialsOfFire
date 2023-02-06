@@ -3,10 +3,11 @@
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\TrialsOfFire_WwiseProject.wproj" DateLow="1674834241" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\TrialsOfFire_WwiseProject.figof.wsettings" DateLow="1674931867" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\States\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1674925056" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Queries\Factory Queries.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1674834241" DateHigh="0"/>
@@ -15,10 +16,10 @@
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1674919086" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1674923698" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Events\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Effects\Factory Effects.wwu" DateLow="1674919086" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Events\Default Work Unit.wwu" DateLow="1674925043" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Effects\Factory Effects.wwu" DateLow="1674925043" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1674834241" DateHigh="0"/>
@@ -26,5 +27,5 @@
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1674834241" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Games\TrialsOfFire\TrialsOfFire\TrialsOfFire_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1674925043" DateHigh="0"/>
 </ValidationCache>

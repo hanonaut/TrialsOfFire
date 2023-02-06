@@ -4861,7 +4861,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1927690788033874206, guid: 1ee4cffb41d7f534084bd8ddd8c10d22,
         type: 3}
+      propertyPath: sounds.Array.data[2].soundName
+      value: Foot Steps
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927690788033874206, guid: 1ee4cffb41d7f534084bd8ddd8c10d22,
+        type: 3}
       propertyPath: sounds.Array.data[1].soundEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: f51d366e422793c46b867ec2d20d529a,
+        type: 2}
+    - target: {fileID: 1927690788033874206, guid: 1ee4cffb41d7f534084bd8ddd8c10d22,
+        type: 3}
+      propertyPath: sounds.Array.data[2].soundEvent.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 35a038a211f1555428a2dc0d44bf9572,
         type: 2}
